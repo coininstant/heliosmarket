@@ -28,7 +28,7 @@ const perks = [
     name: 'For the Planet',
     Icon: Leaf,
     description:
-      "We've pledged 1% of sales to the preservation and restoration of the natural environment.",
+      "We've pledged 1% of sales to the environment through the Stripe climate program to remove CO2 from the atmosphere.",
   },
 ]
 
@@ -37,15 +37,15 @@ export default function Home() {
     <>
       <MaxWidthWrapper>
         <div className='py-20 mx-auto text-center flex flex-col items-center max-w-3xl'>
-          <h1 className='text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl'>
+          <h1 className='text-4xl font-bold tracking-tight text-white-900 sm:text-6xl'>
             Your marketplace for high-quality{' '}
-            <span className='text-blue-600'>
+            <span className='text-purple-600'>
               digital assets
             </span>
             .
           </h1>
           <p className='mt-6 text-lg max-w-prose text-muted-foreground'>
-            Welcome to DigitalHippo. Every asset on our
+            Welcome to HeliosMarket. Every asset on our
             platform is verified by our team to ensure our
             highest quality standards.
           </p>
@@ -56,7 +56,7 @@ export default function Home() {
               Browse Trending
             </Link>
             <Button variant='ghost'>
-              Our quality promise &rarr;
+            <Link href='/pages/ourqualitypromise'>Our quality promise &rarr;</Link>
             </Button>
           </div>
         </div>
@@ -68,7 +68,7 @@ export default function Home() {
         />
       </MaxWidthWrapper>
 
-      <section className='border-t border-gray-200 bg-gray-50'>
+      <section className='border-t border-gray-200 white'>
         <MaxWidthWrapper className='py-20'>
           <div className='grid grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-0'>
             {perks.map((perk) => (
@@ -76,13 +76,13 @@ export default function Home() {
                 key={perk.name}
                 className='text-center md:flex md:items-start md:text-left lg:block lg:text-center'>
                 <div className='md:flex-shrink-0 flex justify-center'>
-                  <div className='h-16 w-16 flex items-center justify-center rounded-full bg-blue-100 text-blue-900'>
+                  <div className='h-16 w-16 flex items-center justify-center rounded-full bg-purple-200 text-blue-900'>
                     {<perk.Icon className='w-1/3 h-1/3' />}
                   </div>
                 </div>
 
                 <div className='mt-6 md:ml-4 md:mt-0 lg:ml-0 lg:mt-6'>
-                  <h3 className='text-base font-medium text-gray-900'>
+                  <h3 className='text-base font-medium white'>
                     {perk.name}
                   </h3>
                   <p className='mt-3 text-sm text-muted-foreground'>

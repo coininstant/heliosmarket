@@ -1,5 +1,6 @@
 import Navbar from '@/components/Navbar'
 import Providers from '@/components/Providers'
+import { ThemeProvider } from "@/components/theme-provider"
 import { cn, constructMetadata } from '@/lib/utils'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
@@ -23,15 +24,22 @@ export default function RootLayout({
           'relative h-full font-sans antialiased',
           inter.className
         )}>
-        <main className='relative flex flex-col min-h-screen'>
-          <Providers>
-            <Navbar />
-            <div className='flex-grow flex-1'>
-              {children}
-            </div>
-            <Footer />
-          </Providers>
-        </main>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <main className='relative flex flex-col min-h-screen'>
+            <Providers>
+              <Navbar />
+              <div className='flex-grow flex-1'>
+                {children}
+              </div>
+              <Footer />
+            </Providers>
+          </main>
+        </ThemeProvider>
 
         <Toaster position='top-center' richColors />
       </body>

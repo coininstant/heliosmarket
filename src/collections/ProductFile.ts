@@ -80,9 +80,20 @@ export const ProductFiles: CollectionConfig = {
     staticURL: '/product_files',
     staticDir: 'product_files',
     mimeTypes: [
-      'image/*',
-      'font/*',
-      'application/postscript',
+      'image/*',                 // Images
+      'font/*',                  // Font files
+      'application/pdf',          // PDF files
+      'application/postscript',   // PostScript files
+      'text/plain',               // Plain text files (.txt)
+      'application/json',         // JSON files
+      'application/xml',          // XML files
+      'application/vnd.ms-excel', // Excel files
+      'application/msword',       // Word files
+      'application/zip',          // ZIP files
+      'audio/*',                 // Audio files (e.g., mp3, wav)
+      'application/octet-stream', // Generic binary files
+      'application/epub+zip',    // EPUB files
+      'application/x-mobipocket-ebook', // MOBI files (Kindle)
     ],
   },
   fields: [

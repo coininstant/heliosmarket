@@ -97,7 +97,7 @@ const ThankYouPage = async ({
 
             <div className='mt-16 text-sm font-medium'>
               <div className='text-muted-foreground'>
-                Order nr.
+                Order Number:
               </div>
               <div className='mt-2 text-gray-900'>
                 {order.id}
@@ -148,7 +148,7 @@ const ThankYouPage = async ({
                             <a
                               href={downloadUrl}
                               download={product.name}
-                              className='text-blue-600 hover:underline underline-offset-2'>
+                              className='text-purple-600 hover:underline underline-offset-2'>
                               Download asset
                             </a>
                           ) : null}
@@ -195,7 +195,7 @@ const ThankYouPage = async ({
               <div className='mt-16 border-t border-gray-200 py-6 text-right'>
                 <Link
                   href='/products'
-                  className='text-sm font-medium text-blue-600 hover:text-blue-500'>
+                  className='text-sm font-medium text-purple-600 hover:text-purple-500'>
                   Continue shopping &rarr;
                 </Link>
               </div>

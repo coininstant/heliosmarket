@@ -1,21 +1,23 @@
+// Import ModeToggle component
 import Link from 'next/link'
-import MaxWidthWrapper from './MaxWidthWrapper'
-import { Icons } from './Icons'
-import NavItems from './NavItems'
-import { buttonVariants } from './ui/button'
-import Cart from './Cart'
-import { getServerSideUser } from '@/lib/payload-utils'
-import { cookies } from 'next/headers'
-import UserAccountNav from './UserAccountNav'
-import MobileNav from './MobileNav'
+import MaxWidthWrapper from './MaxWidthWrapper';
+import { ModeToggle } from './ModeToggle'; 
+import { buttonVariants } from './ui/button';
+import UserAccountNav from './UserAccountNav';
+import { getServerSideUser } from '@/lib/payload-utils';
+import { cookies } from 'next/headers';
+import MobileNav from './MobileNav';
+import NavItems from './NavItems';
+import { Icons } from './Icons';
+import Cart from './Cart';
 
 const Navbar = async () => {
-  const nextCookies = cookies()
-  const { user } = await getServerSideUser(nextCookies)
+  const nextCookies = cookies();
+  const { user } = await getServerSideUser(nextCookies);
 
   return (
-    <div className='bg-white sticky z-50 top-0 inset-x-0 h-16'>
-      <header className='relative bg-white'>
+    <div className='white sticky z-50 top-0 inset-x-0 h-16'>
+      <header className='relative white'>
         <MaxWidthWrapper>
           <div className='border-b border-gray-200'>
             <div className='flex h-16 items-center'>
@@ -81,6 +83,9 @@ const Navbar = async () => {
                   <div className='ml-4 flow-root lg:ml-6'>
                     <Cart />
                   </div>
+
+                  {/* Include the ModeToggle component here */}
+                  <ModeToggle />
                 </div>
               </div>
             </div>
@@ -88,7 +93,7 @@ const Navbar = async () => {
         </MaxWidthWrapper>
       </header>
     </div>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
