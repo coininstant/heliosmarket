@@ -148,7 +148,7 @@ const ThankYouPage = async ({
                             <a
                               href={downloadUrl}
                               download={product.name}
-                              className='text-purple-600 hover:underline underline-offset-2'>
+                              >
                               Download asset
                             </a>
                           ) : null}
