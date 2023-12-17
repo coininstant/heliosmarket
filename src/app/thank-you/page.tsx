@@ -146,12 +146,11 @@ const ThankYouPage = async ({
 
                           {order._isPaid ? (
                             <a
-                            href={downloadUrl}
-                            download={product.name}
-                            style={{ color: 'purple', textDecoration: 'underline' }}
-                          >
-                            Download asset
-                          </a>
+                              href={downloadUrl}
+                              download={product.name}
+                              className='text-purple-600 hover:underline underline-offset-2'>
+                              Download asset
+                            </a>
                           ) : null}
                         </div>
 
