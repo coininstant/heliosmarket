@@ -11,8 +11,8 @@ const OurQualityPromisePage: React.FC = () => {
         </h1>
         <p className='mt-6 text-lg max-w-prose text-muted-foreground text-left'>
           <span className='ml-7'>At HeliosMarket, we are dedicated to delivering an unparalleled standard of quality.
-          Our commitment goes beyond words – it's embedded in every asset featured on our platform.
-          Here's what you can expect from our Quality Promise:</span>
+          Our commitment goes beyond words and is embedded in every asset featured on our platform.
+          Here is what you can expect from our Quality Promise:</span>
         </p>
 
         <ul className='mt-4 text-lg max-w-prose text-muted-foreground list-inside list-disc text-left'>
