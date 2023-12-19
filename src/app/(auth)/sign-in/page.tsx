@@ -145,7 +145,14 @@ const Page = () => {
                 </Button>
               </div>
             </form>
-
+            {/* Forgot Password link */}
+            <div className='text-center'>
+            <Link href='/sell/forgot'>
+              <span className='text-sm text-purple-500 hover:text-purple-700'>
+                Forgot your password?
+              </span>
+            </Link>
+              </div>
             <div className='relative'>
               <div
                 aria-hidden='true'
