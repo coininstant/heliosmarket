@@ -48,9 +48,9 @@ export const ReceiptEmail = ({
             <Column>
               <Img
                 src={`${process.env.NEXT_PUBLIC_SERVER_URL}/helios-email-sent.png`}
-                width='100'
-                height='100'
-                alt='HeliosMarket'
+                width={100} // Set the width to 60
+                height={undefined} // Let height adjust automatically
+                alt='HeliosMarket Logo'
               />
             </Column>
 

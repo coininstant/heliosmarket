@@ -36,10 +36,10 @@ const Footer = () => {
                 </div>
 
                 <div className='text-center relative mx-auto max-w-sm'>
-                  <h3 className='font-semibold text-gray-900'>
+                  <h3 className='font-semibold text-purple-900'>
                     Become a seller
                   </h3>
-                  <p className='mt-2 text-sm text-muted-foreground'>
+                  <p className='mt-2 text-sm text-muted-foreground text-purple-600'>
                     If you&apos;d like to sell high-quality
                     digital products, you can do so in
                     minutes.{' '}

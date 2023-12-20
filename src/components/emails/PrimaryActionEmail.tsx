@@ -35,8 +35,8 @@ export const EmailTemplate = ({
         <Container style={container}>
           <Img
             src={`${process.env.NEXT_PUBLIC_SERVER_URL}/helios-newsletter-sign-up.png`}
-            width='150'
-            height='150'
+            width={150} // Set the width to 60
+            height={undefined} // Let height adjust automatically
             alt='HeliosMarket'
             style={logo}
           />

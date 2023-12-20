@@ -20,13 +20,15 @@ const VerifyEmailPage = ({ searchParams }: PageProps) => {
           </div>
         ) : (
           <div className='flex h-full flex-col items-center justify-center space-y-1'>
-            <div className='relative mb-4 h-60 w-60 text-muted-foreground'>
+            <div className='relative mb-4'>
               <Image
-                src='/helios-email-sent.png'
-                fill
-                alt='helios email sent image'
-              />
-            </div>
+              src='/helios-email-sent.png'
+              width={60} // Set the width to 60
+              height={60} // Let height adjust automatically
+              layout="responsive"
+              alt='the email was sent'
+            />
+          </div>
 
             <h3 className='font-semibold text-2xl'>
               Check your email

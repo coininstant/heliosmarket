@@ -69,10 +69,10 @@ const ThankYouPage = async ({
       <div>
         <div className='mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8 lg:py-32 xl:gap-x-24'>
           <div className='lg:col-start-2'>
-            <p className='text-sm font-medium text-blue-600'>
+            <p className='text-sm font-medium text-purple-600'>
               Order successful
             </p>
-            <h1 className='mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl'>
+            <h1 className='mt-2 text-4xl font-bold tracking-tight white sm:text-5xl'>
               Thanks for ordering
             </h1>
             {order._isPaid ? (
@@ -81,7 +81,7 @@ const ThankYouPage = async ({
                 available to download below. We&apos;ve sent
                 your receipt and order details to{' '}
                 {typeof order.user !== 'string' ? (
-                  <span className='font-medium text-gray-900'>
+                  <span className='font-medium text-purple-600'>
                     {order.user.email}
                   </span>
                 ) : null}
@@ -99,7 +99,7 @@ const ThankYouPage = async ({
               <div className='text-muted-foreground'>
                 Order Number:
               </div>
-              <div className='mt-2 text-gray-900'>
+              <div className='mt-2 text-purple-600'>
                 {order.id}
               </div>
 
@@ -128,14 +128,14 @@ const ThankYouPage = async ({
                               fill
                               src={image.url}
                               alt={`${product.name} image`}
-                              className='flex-none rounded-md bg-gray-100 object-cover object-center'
+                              className='flex-none rounded-md white object-cover object-center'
                             />
                           ) : null}
                         </div>
 
                         <div className='flex-auto flex flex-col justify-between'>
                           <div className='space-y-1'>
-                            <h3 className='text-gray-900'>
+                            <h3 className='white'>
                               {product.name}
                             </h3>
 
@@ -154,7 +154,7 @@ const ThankYouPage = async ({
                           ) : null}
                         </div>
 
-                        <p className='flex-none font-medium text-gray-900'>
+                        <p className='flex-none font-medium white'>
                           {formatPrice(product.price)}
                         </p>
                       </li>
@@ -166,19 +166,19 @@ const ThankYouPage = async ({
               <div className='space-y-6 border-t border-gray-200 pt-6 text-sm font-medium text-muted-foreground'>
                 <div className='flex justify-between'>
                   <p>Subtotal</p>
-                  <p className='text-gray-900'>
+                  <p className='white'>
                     {formatPrice(orderTotal)}
                   </p>
                 </div>
 
                 <div className='flex justify-between'>
                   <p>Transaction Fee</p>
-                  <p className='text-gray-900'>
+                  <p className='white'>
                     {formatPrice(1)}
                   </p>
                 </div>
 
-                <div className='flex items-center justify-between border-t border-gray-200 pt-6 text-gray-900'>
+                <div className='flex items-center justify-between border-t border-gray-200 pt-6 white'>
                   <p className='text-base'>Total</p>
                   <p className='text-base'>
                     {formatPrice(orderTotal + 1)}
