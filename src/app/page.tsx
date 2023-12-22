@@ -1,3 +1,5 @@
+'use client'
+
 import MaxWidthWrapper from '@/components/MaxWidthWrapper'
 import ProductReel from '@/components/ProductReel'
 import {
@@ -36,14 +38,22 @@ export default function Home() {
   return (
     <>
       <MaxWidthWrapper>
-        <div className='py-20 mx-auto text-center flex flex-col items-center max-w-3xl'>
-          <h1 className='text-4xl font-bold tracking-tight text-white-900 sm:text-6xl'>
-            Your marketplace for high-quality{' '}
-            <span className='text-purple-600'>
-              digital assets
-            </span>
-            .
-          </h1>
+      <div className='py-20 mx-auto text-center flex flex-col items-center max-w-3xl'>
+        <style jsx global>{`
+          /* Import the Dancing Script font */
+          @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+          /* Apply the custom font to the headings */
+          h1, h2, h3, h4, h5, h6 {
+            font-family: 'Dancing Script', cursive;
+          }
+        `}</style>
+
+        <h1 className='text-4xl font-bold tracking-tight text-white-900 sm:text-6xl'>
+          Your Marketplace for high-quality{' '}
+          <span className='text-purple-600'>Digital assets 🤝</span>
+          
+        </h1>
           <p className='mt-6 text-lg max-w-prose text-muted-foreground'>
             Welcome to HeliosMarket. Every asset on our
             platform is verified by our team to ensure our
