@@ -66,7 +66,7 @@ const Footer = () => {
           <div className='mt-4 flex items-center justify-center md:mt-0'>
             <div className='flex space-x-8'>
               <Link
-                href='#'
+                href='/pages/rulesandguidelines'
                 className='text-sm text-muted-foreground hover:text-gray-600'>
                 Terms
               </Link>
