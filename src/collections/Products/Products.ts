@@ -173,17 +173,17 @@ export const Products: CollectionConfig = {
     },
     {
       name: 'product_files',
-      label: 'Product file(s)',
+      label: 'Product Download file(s)',
       type: 'relationship',
       required: true,
       relationTo: 'product_files',
-      hasMany: false,
+      hasMany: true,// multiple file uploads set here
     },
     {
       name: 'approvedForSale',
       label: 'Product Status',
       type: 'select',
-      defaultValue: 'pending',
+      defaultValue: 'approved',// initially we will set this to automatically approve products for testing
       access: {
         create: ({ req }) => req.user.role === 'admin',
         read: ({ req }) => req.user.role === 'admin',
