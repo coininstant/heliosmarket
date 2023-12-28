@@ -22,7 +22,7 @@ const OurQualityPromisePage: React.FC = () => {
           <span className='text-purple-600'>Quality Promise 🤝</span>
         </h1>
         <p className='mt-6 text-lg max-w-prose text-muted-foreground text-left'>
-          <span className='ml-7'>At HeliosMarket, we are dedicated to delivering an unparalleled standard of quality.
+          <span className='ml-7'>Here at HeliosMarket, we are dedicated to delivering an unparalleled standard of quality.
           Our commitment goes beyond words and is embedded in every asset featured on our platform.
           Here is what you can expect from our Quality Promise:</span>
         </p>
@@ -46,7 +46,7 @@ const OurQualityPromisePage: React.FC = () => {
           <li>
             <strong>Dedicated Support:</strong> Should you have any questions or concerns about
             the quality of an asset, our support team is here to assist you. Your satisfaction is
-            our top priority.
+            our top priority. Questions or concerns please contact us at blockheads.professionals@gmail.com or by phone 1-503-902-1027.
           </li>
         </ul>
 

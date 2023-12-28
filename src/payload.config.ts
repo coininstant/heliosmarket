@@ -3,8 +3,8 @@ import { webpackBundler } from '@payloadcms/bundler-webpack'
 import { mongooseAdapter } from '@payloadcms/db-mongodb'
 import { slateEditor } from '@payloadcms/richtext-slate'
 import path from 'path'
-import { Users } from './collections/Users'
 import dotenv from 'dotenv'
+import { Users } from './collections/Users'
 import { Products } from './collections/Products/Products'
 import { Media } from './collections/Media'
 import { ProductFiles } from './collections/ProductFile'
@@ -38,5 +38,10 @@ export default buildConfig({
   }),
   typescript: {
     outputFile: path.resolve(__dirname, 'payload-types.ts'),
+  },
+  upload: {
+    limits: {
+      fileSize: 262144000, // 5MB in bytes
+    },
   },
 })

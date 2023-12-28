@@ -24,7 +24,7 @@ const perks = [
     name: 'Guaranteed Quality',
     Icon: CheckCircle,
     description:
-      'Every asset on our platform is verified by our team to ensure our highest quality standards. Not happy? We offer a 30-day refund guarantee.',
+      'Every asset on our platform is verified by Blockheads LLC to ensure our highest quality standards. Not happy? We offer a 30-day refund guarantee.',
   },
   {
     name: 'For the Planet',

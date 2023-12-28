@@ -59,7 +59,7 @@ export function constructMetadata({
       creator: '@blockheadspro',
     },
     icons,
-    metadataBase: new URL('https://heliosmarket.up.railway.app'),
+    metadataBase: new URL('https://heliosmarket.io'),
     ...(noIndex && {
       robots: {
         index: false,
