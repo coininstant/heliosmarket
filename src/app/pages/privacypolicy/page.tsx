@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-const MyComponent = () => (
+const PrivacyPolicy = () => (
   <div>
     <style jsx>{`
   [data-custom-class='body'], [data-custom-class='body'] * {
@@ -15246,4 +15246,4 @@ word-break: break-word !important;
   </div>
 );
 
-export default MyComponent;
+export default PrivacyPolicy;
