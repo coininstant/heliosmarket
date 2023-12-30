@@ -76,7 +76,7 @@ const Footer = () => {
                 Privacy Policy
               </Link>
               <Link
-                href='#'
+                href='/pages/cookiepolicy'
                 className='text-sm text-muted-foreground hover:text-gray-600'>
                 Cookie Policy
               </Link>

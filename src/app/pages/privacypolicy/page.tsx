@@ -424,7 +424,7 @@ word-break: break-word !important;
           exercise your rights is by <bdt className="block-component" />
           visiting{" "}
           <span style={{ color: "rgb(0, 58, 250)" }}>
-            <bdt className="question">blockchain.professionals@gmail.com</bdt>
+            <bdt className="question">blockheads.professionals@gmail.com</bdt>
           </span>
           <bdt className="else-block" />, or by contacting us. We will consider
           and act upon any request in accordance with applicable data protection
@@ -3851,7 +3851,7 @@ word-break: break-word !important;
                                                                 <span data-custom-class="body_text">
                                                                   <bdt className="block-component" />
                                                                   <bdt className="question">
-                                                                    blockchain.professionals@gmail.com
+                                                                    blockheads.professionals@gmail.com
                                                                   </bdt>
                                                                   <bdt className="else-block" />
                                                                 </span>
@@ -11517,7 +11517,7 @@ word-break: break-word !important;
                                                                                       }}
                                                                                     >
                                                                                       <bdt className="question">
-                                                                                        blockchain.professionals@gmail.com
+                                                                                        blockheads.professionals@gmail.com
                                                                                       </bdt>
                                                                                     </span>
                                                                                     ,{" "}
@@ -12066,7 +12066,7 @@ word-break: break-word !important;
                                                                                     fontSize: 15
                                                                                   }}
                                                                                 >
-                                                                                  blockchain.professionals@gmail.com
+                                                                                  blockheads.professionals@gmail.com
                                                                                 </bdt>
                                                                               </span>
                                                                               <bdt
@@ -12564,7 +12564,7 @@ word-break: break-word !important;
                                                                                 }}
                                                                               >
                                                                                 <bdt className="question">
-                                                                                  blockchain.professionals@gmail.com
+                                                                                  blockheads.professionals@gmail.com
                                                                                 </bdt>
                                                                               </span>
                                                                               <bdt className="else-block" />
@@ -13020,7 +13020,7 @@ word-break: break-word !important;
                                                                                   }}
                                                                                 >
                                                                                   <bdt className="question">
-                                                                                    blockchain.professionals@gmail.com
+                                                                                    blockheads.professionals@gmail.com
                                                                                   </bdt>
                                                                                 </span>
                                                                                 <bdt className="else-block" />
@@ -13738,7 +13738,7 @@ word-break: break-word !important;
                                                                                     }}
                                                                                   >
                                                                                     <bdt className="question">
-                                                                                      blockchain.professionals@gmail.com
+                                                                                      blockheads.professionals@gmail.com
                                                                                     </bdt>
                                                                                   </span>
                                                                                   <bdt className="else-block" />
@@ -14658,7 +14658,7 @@ word-break: break-word !important;
                                                                                         us
                                                                                         at{" "}
                                                                                         <bdt className="question">
-                                                                                          blockchain.professionals@gmail.com
+                                                                                          blockheads.professionals@gmail.com
                                                                                           or&nbsp;
                                                                                         </bdt>
                                                                                         <bdt className="statement-end-if-in-editor">
@@ -15157,7 +15157,7 @@ word-break: break-word !important;
                                                                                       }}
                                                                                     >
                                                                                       <bdt className="question">
-                                                                                        blockchain.professionals@gmail.com
+                                                                                        blockheads.professionals@gmail.com
                                                                                       </bdt>
                                                                                     </span>
                                                                                     <bdt className="else-block" />
