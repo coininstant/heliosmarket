@@ -33,7 +33,7 @@ const Navbar = async () => {
                 <NavItems />
               </div>
 
-              <div className='ml-auto flex items-center'>
+              <div className='ml-auto flex items-center'><ModeToggle />
                 <div className='hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6'>
                   {user ? null : (
                     <Link
@@ -79,13 +79,9 @@ const Navbar = async () => {
                       />
                     </div>
                   )}
-
+                  </div>
                   <div className='ml-4 flow-root lg:ml-6'>
                     <Cart />
-                  </div>
-
-                  {/* Include the ModeToggle component here */}
-                  <ModeToggle />
                 </div>
               </div>
             </div>
