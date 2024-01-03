@@ -12,6 +12,9 @@ import {
   Leaf,
 } from 'lucide-react'
 import Link from 'next/link'
+import ReactGA from 'react-ga4';
+const GA_MEASUREMENT_ID = "G-B71J0SB46G";
+ReactGA.initialize(GA_MEASUREMENT_ID)
 
 const perks = [
   {
